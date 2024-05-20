@@ -6,7 +6,7 @@ session_start();
 // };
 if (isset($_SESSION['user_name'])) {
     echo 'Hello, ' . $_SESSION['user_name'];
-    echo '</br><a href = "/web/exit.php">Закрыть</a>';
+    echo '</br><a href = "exit.php">Закрыть</a>';
 } else {
     include 'index.html';
 };
